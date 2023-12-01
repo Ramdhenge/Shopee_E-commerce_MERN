@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+  border-radius: 0;
+  font-size: 1rem;
+}
+
+.allproducts{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-cnt{ 
+  /* height: 40vh;
+  width: 30vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products img{
+  padding: 3%;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.overview-container{
+  display: flex;
+  /* border: 1px solid red ; */
+}
+
+.overview-container .left img{
+  max-width: 70vh;
+}
+
+/* .login-signup{
+  border: 1px solid red;
+  width: 13%;
+} */
+
+.login-signup img{
+  /* position: absolute; */
+  right: 0;
+  width: 5vh;
+}
+
+.logo{
+  width: 15vh;
+}
+
+.badge{
+  font-size: 1.4vh;
+}
+
+.cart-icon{
+  width: 4vh;
+}
+
+.login-container{
+  display:flex ;
+}
+
+.login_img{
+  /* border: 1px solid red; */
+  margin-top: -10vh;
+  width: 80vh;
+}
+
+.signup-container{
+  margin-bottom: 10%;
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.signup_img{
+  width: 80%;
+}
+
+.empty-cart{
+  width: 40%;
+}
+
+@media screen and (max-width: 448px) {
+  .login-container{
+    flex-direction: column;
+  }
+
+  .login_img{
+    width: 50vh;
+    margin: 2vh 0vh;
+  }
+
+}
+
+@media screen and (max-width: 666px){
+  .signup-container{
+    flex-direction: column;
+  }
+
+}
